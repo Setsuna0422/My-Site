@@ -2,3 +2,43 @@ site_name: 刹那的博客
 
 theme:
   name: material
+  language: zh
+
+  icon:
+    repo: fontawesome/brands/git-alt
+  
+  palette: 
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+  features:
+    - navigation.tabs
+    # integration for the table of content
+    - toc.integrate
+    # back to top button
+    - navigation.top
+    - search.suggest
+  
+  plugins:
+  - search:
+      lang: zh
+
+repo_name: Setsuna-F-0422/My-Site
+repo_url: https://github.com/Setsuna-F-0422/My-Site
+
+  
+
+copyright: Copyright &copy; Cary Xu all right reserved
