@@ -8,9 +8,8 @@
 
 你可以在右上角的GitHub仓库中找到博客网页的源代码
 
-## 项目布局
+如果想要和我讨论博客内的文章内容可以前往本仓库的[Github discussions](https://github.com/Setsuna-F-0422/My-Site/discussions)留言
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+在看到之后我会及时回复
+
+## 推荐内容
