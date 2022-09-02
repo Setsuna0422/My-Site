@@ -1,5 +1,7 @@
 site_name: 刹那的博客
 
+edit_uri: blob/main/docs
+
 theme:
   name: material
   language: zh
@@ -14,11 +16,11 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   
-  palette: 
-
+  palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      accent: cyan
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -26,6 +28,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: deep purple
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -33,6 +37,7 @@ theme:
 
   features:
     - navigation.tabs
+    - navigation.sections
     # integration for the table of content
     - toc.integrate
     # back to top button
