@@ -38,10 +38,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    # integration for the table of content
-    - toc.integrate
-    # back to top button
-    - navigation.top
+    - toc.integrate   # integration for the table of content
+    - navigation.top  # back to top button
     - search.suggest
   
   plugins:
@@ -51,4 +49,22 @@ theme:
 repo_name: Setsuna-F-0422/My-Site
 repo_url: https://github.com/Setsuna-F-0422/My-Site
 
+# markdown插件，丰富浏览体验
+markdown_extensions:
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
 copyright: Copyright &copy; Cary Xu all right reserved
+
+extra_css:
+  - stylesheets/extra.css
