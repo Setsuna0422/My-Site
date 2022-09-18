@@ -1,6 +1,13 @@
 site_name: 刹那的博客
-
 edit_uri: blob/main/docs
+repo_name: Setsuna-F-0422/My-Site
+repo_url: https://github.com/Setsuna-F-0422/My-Site
+copyright: Copyright &copy; Cary Xu all right reserved
+
+nav:
+  - 主页: index.md
+  - 转载:
+    - 魏巍 一位革命老人对未来革命的几点思考: ./转载/魏巍.md
 
 theme:
   name: material
@@ -28,12 +35,13 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
+      # 主色调
+      primary: cyan
+      # 点击时显示的颜色
       accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
 
   features:
     - navigation.tabs
@@ -46,15 +54,15 @@ theme:
   - search:
       lang: zh
 
-repo_name: Setsuna-F-0422/My-Site
-repo_url: https://github.com/Setsuna-F-0422/My-Site
-
 # markdown插件，丰富浏览体验
 markdown_extensions:
+  - admonition
   - footnotes
   - toc:
       permalink: true
-  - pymdownx.betterem
+  - meta
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
@@ -63,8 +71,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
-copyright: Copyright &copy; Cary Xu all right reserved
 
 extra_css:
   - stylesheets/extra.css
