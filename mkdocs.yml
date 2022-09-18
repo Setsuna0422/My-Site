@@ -7,7 +7,7 @@ copyright: Copyright &copy; Cary Xu all right reserved
 nav:
   - 主页: index.md
   - 转载:
-    - 一位革命老人对未来革命的几点思考: ./转载/魏巍.md
+    - 一位革命老人对未来革命的几点思考: ./reprint/Weiwei-on-Future-Revolution.md
 
 theme:
   name: material
