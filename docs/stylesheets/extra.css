@@ -2,6 +2,18 @@
     max-width: 1440px;
 }
 
-h1 {
-    text-align: center;
+.md-typeset p {
+    font-size: 1.25em;
+}
+
+.md-typeset h1 {
+    font-weight: 500;
+    font-size: 2.8em;
+}
+
+/*Change footnotes font size */
+.md-typeset .footnote,
+.md-typeset .footnote .admonition,
+.md-typeset .footnote .details {
+    font-size: 2em;
 }
