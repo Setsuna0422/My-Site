@@ -1,5 +1,5 @@
 site_name: 刹那的博客
-edit_uri: blob/main/docs
+edit_uri: ""
 repo_name: Setsuna0422/My-Site
 repo_url: https://github.com/Setsuna0422/My-Site
 copyright: Copyright &copy; Setsuna all right reserved
@@ -12,6 +12,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
 
   # 设置网页的字体，来源于Google Font
@@ -22,6 +23,7 @@ theme:
     code: Roboto
 
   icon:
+    logo: material/library-outline
     repo: fontawesome/brands/git-alt
   
   palette:
@@ -39,7 +41,8 @@ theme:
       # 主色调
       primary: indigo
       # 点击时显示的颜色
-      accent: amber
+      #accent: amber
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -50,7 +53,8 @@ theme:
     - navigation.expand
     - navigation.indexes
     - navigation.tracking
-    - toc.integrate   # integration for the table of content
+    #- toc.integrate   # integration for the table of content
+    - toc.follow
     - navigation.top  # back to top button
     - search.suggest
   
